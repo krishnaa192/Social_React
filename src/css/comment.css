@@ -1,0 +1,93 @@
+
+
+
+.comment-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    background-color:white; 
+    border-radius: 10px;
+   
+}
+
+.comment-container{
+    display: flex;
+}
+.comment-profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.comment-profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.comment-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+    margin-left: 7%;
+    margin-top: 15px;
+}
+textarea{
+    height: 42px;
+    width: 200px;
+    border: 2px blue solid;
+    border-radius: 5px;
+    outline: none;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+
+.commented{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+  
+   
+
+}
+.commented-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 14px;
+ 
+}
+.commented-profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.commented-name{
+    display: flex;
+
+
+}
+.commented-name p{
+    color: black;
+    margin-left:10px
+}
+span{
+    margin: 28px 0px 0px -57px;
+    font-size: small;
+}
+.commented-content{
+   margin: 50px 0px -34px -56px;
+}

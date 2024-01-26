@@ -1,0 +1,142 @@
+/* Add this to your CSS */
+.comment-popup {
+    position: fixed;
+    top: 50%;
+  
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    left: 50%;
+    height: 96vh;
+    width: 51.75vw;
+    /* opacity: 0; */
+  /* visibility: hidden; */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+  .comment-popup.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  .comment-popup-content {
+    /* Customize styles for the comment popup content */
+  }
+  
+  .close-btn {
+    margin-top: 10px;
+    cursor: pointer;
+    position: fixed;
+    top: 2%;
+    left: 92%;
+  }
+  .comment-content{
+    display: flex;
+    flex-direction: row;
+  }
+  .comment-content small{
+  
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+  }
+  .comments-content p{
+    font-size: 1.6rem;
+    width: 43vw;
+    margin-top: -3rem;
+    margin-left: 8rem;
+
+  }
+  .comment-popup{
+    display: flex;
+    flex-direction: column;
+  }
+  .post-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+    padding-top: 33px;
+  
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(199, 177, 177, 0.7) 0px 30px 60px -30px;
+    border: 2px smargin-top 325px solid rgb(241, 241, 241);
+    margin-top: 5px;
+  }
+  .post-footer svg{
+  font-size: 2.8rem;
+  margin-left: 6rem;
+  margin-right: -45px;
+  }
+  .commented-box h3{
+    font-size: 2rem;
+    color: blue;
+    text-align: center;
+    margin-top:3rem;
+
+  }
+.like-btn{
+ 
+  display: flex;
+  flex-direction: row;
+margin-left: 8rem;
+  justify-content: center;
+}
+.like-btn button{
+
+  margin-left: 2rem;
+  margin-top: 1rem;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5rem;
+  color: blue;
+
+}
+.reply-popup{
+  margin-left: 3rem;
+  position: fixed;
+  top: 49.8%;
+  width: 524px;
+  right: 3.6%;
+
+}
+.reply button{
+  margin-top: -1rem;
+
+}
+.view-reply{
+  margin-left: 3rem;
+  margin-top: -3rem;
+  font-size: 1.5rem;
+  color: blue;
+  border: none;
+  background-color: transparent;
+}
+.posts-stats p{
+  color: black;
+  margin-top: -1rem;
+  margin-bottom: -3rem;
+  font-size: 2rem;
+}
+.posts-stats button{
+  border: none;
+  background-color: transparent;
+  font-size: 2rem;
+  color: blue;
+  margin-left: 4rem;
+  margin-right: 0rem;
+}
+textarea{
+  margin-top: 1rem;
+
+}
+/* @media (max-width: 520px){
+
+.main
+[
+
+]
+
+} */

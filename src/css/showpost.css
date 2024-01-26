@@ -1,0 +1,279 @@
+.posts-header{
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+    width:20%;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    transition: all 2s linear;
+    transform-origin: top;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(199, 177, 177, 0.7) 0px 30px 60px -30px;
+    border: 2px solid rgb(241, 241, 241); 
+}
+.posts-container{
+    display: flex;
+    flex-direction: row;
+ align-items: flex-start;
+   
+}
+.posts-heads img{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.posts-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width:34vw;
+}
+.posts-heads{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color:white;
+    margin-left: 12rem;
+}
+.post-contents img{
+  height: 58vh;
+  width: 36vw;
+  object-fit: cover;
+}
+.posts-main{
+  width: 43vw;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    background-color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(199, 177, 177, 0.7) 0px 30px 60px -30px;
+  border: 2px solid rgb(241, 241, 241); 
+  margin-top: 83px;
+    margin-left:300px;
+}
+
+.posts-stats h3{
+  font-size: 2.3rem;
+  font-weight:normal;
+  margin-left: 2.1rem;
+
+}
+.post-foot{
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 5vh;
+margin-left: 12rem;
+}
+.post-foot p{
+  font-size:1.8rem;
+
+}
+.like-comm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 5vh;
+margin-left: 26rem;
+font-size:1.6rem;
+margin-bottom: 4rem;
+}
+.like-comm p{
+ 
+  margin-left: 2.1rem;
+}
+.like-comm a{
+  margin-left: -73rem;
+  font-size: 1.8rem;
+  color:blue;
+
+}
+
+.post-foot small{
+  margin-left: 2.1rem;
+ 
+
+}
+
+
+
+.button-reaction{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 5vh;  
+  margin-left: 12rem;
+  font-size: 2.3rem;
+}
+.button-reaction svg{
+  cursor: pointer;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+}
+.cmt{
+  margin-left: -75rem !important;
+}
+
+
+.comment-head img,.comment-heads img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.comment-head{
+  border: 1px solid black;
+ 
+}
+
+.comment-head{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  margin-left: -1rem;
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  border: 2px solid rgb(241, 241, 241); 
+
+
+}
+.comment-heads{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+
+
+}
+.comment-body{
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-left: -1rem;
+  width: 100%;
+  /* height: 10vh; */
+  background-color: white;
+ /* border: 2px solid rgb(241, 241, 241);  */
+}
+input{
+display: flex;
+  flex-direction: column;
+  height: 5vh;
+  border: none;
+  outline: none;
+  font-size: 2.3rem;
+  margin-left: 2.1rem;
+}
+.comment-box{
+  border: none;
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.comment-contents{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  margin-left: 2rem;
+ 
+}
+.comment-contents p{
+  font-size: 1.7rem;
+  margin-left: 5.1rem;
+}
+.comment-stats h3{
+ margin-left: 2rem;
+ margin-top: 1rem;
+  font-size: 1.9rem;
+  font-weight: normal;
+}
+.comment-foot button{
+  margin-left: 8rem;
+  font-size: 1.9rem;
+  font-weight: normal;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+button a{
+  text-decoration: none;
+  color: blue;
+}
+.comment-reply{
+  margin-left: 6rem;
+  margin-top: -5rem;
+}
+.seemore-reply a{
+  text-decoration: none;
+  color: blue;
+  margin: 1rem 1rem 1rem 12rem;
+}
+
+@media (max-width: 520px){
+  .posts-main{
+    width: 98vw;
+    margin-left: -14rem;
+    margin-top: 10rem;
+  }
+ .post-contents img {
+    height: 58vh;
+    width: 68vw;
+    object-fit: cover;
+}
+
+.posts-heads{
+  margin-left: 18rem;
+}
+.like-comm{
+  margin-left: 42rem;
+}
+.post-foot{
+  margin-left: 17rem;
+}
+.comment-head{
+  margin-left: -1rem;
+  width: 66vw;
+}
+.comment-head img{
+  height: 44px;
+  width: 54px;
+  border-radius: 50%;
+}
+/* .comment-body{
+  margin-left: -18rem
+} */
+.comment-box{
+  width: 67vw;
+}
+.comment-heads img {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.comment-stats h3{
+  font-size: 1.6rem;
+
+}
+.comment-reply{
+  margin-top: -3rem;
+}
+.button-reaction{
+  margin-left:17rem;
+}
+.button-reaction svg{
+  margin-right: 1rem;
+}
+}

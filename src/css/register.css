@@ -1,0 +1,86 @@
+
+.Register-box{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 100;
+  border-radius: 10px;
+  width:15%;
+  height: 3vh;
+  position: fixed;
+  top: 0%;
+  margin-left: 0%;
+  transition: all 2s linear;
+  transform-origin: top;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(199, 177, 177, 0.7) 0px 30px 60px -30px;
+  border: 2px solid rgb(241, 241, 241); 
+
+}
+.signup h2{
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+  .signup{
+    border: 1px solid rgb(0, 0, 0);
+     width: 55vw;
+     height: 76vh;
+     display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      margin-top: 15rem;
+      margin-left: 15rem;
+    
+      background-color: #3b6064;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 2px 4px rgba(190, 179, 179, 0.1);
+  
+  }
+  .signbtn{
+      width: 35%;
+      height: 30px;
+      background-color: #0095f6;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 2rem;
+  }
+  .Register-box input{
+      width: 30vw;
+      height: 30px;
+      border: 1px solid rgb(47, 57, 207);
+      border-radius: 5px;
+      margin-top: 2rem;
+      padding-left: 1rem;
+  
+  }
+  .register{
+      width: 35%;
+      height: 30px;
+      background-color: #0095f6;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 600;
+  }
+  @media (max-width: 798px){
+    .signup{
+      width: 80vw;
+      margin-left: 5rem;
+    }
+    .Register-box{
+      margin-left: -8rem;
+    }
+    .register,.signbtn{
+      width: 90%;
+    }
+  }

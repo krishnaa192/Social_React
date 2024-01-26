@@ -1,0 +1,32 @@
+.comment-popup-post-img img{
+
+    height: 59vh;
+    width: 43vw;
+    object-fit: cover;
+    margin-top: 2rem;
+    margin-left: 3rem;
+
+}
+
+
+/* Add this to your CSS */
+.comment-popup {
+    position: fixed;
+    top: 50%;
+  
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    left: 50%;
+    height: 26vh;
+    width: 31.75vw;
+    /* opacity: 0; */
+  /* visibility: hidden; */
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+.post-desc p{
+  font-size: 2rem;
+}
